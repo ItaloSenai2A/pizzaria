@@ -125,6 +125,7 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
+  z-index: 10;
   box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
@@ -238,42 +239,40 @@ header {
   padding: 40px;
 }
 
-#Icone{
+#Icone {
   display: flex;
   justify-content: center;
   gap: 70px;
   margin: 20px 0;
 }
 
-.itens{
+.itens {
   max-width: 250px;
   text-align: center;
 }
 
-#Contato iframe{
+#Contato iframe {
   position: absolute;
-
 }
 
 #Contato {
   display: flex;
   justify-content: center;
-  
 }
 
 .forms {
   z-index: 2;
   width: 530px;
- max-width: 100%;
- box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
- display: block;
- background: #fff;
- padding: 48px 22px;
- text-align: center;
- text-transform: uppercase;
+  max-width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  display: block;
+  background: #fff;
+  padding: 48px 22px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.forms h2{
+.forms h2 {
   color: #e7a200;
   font-size: 28px;
   line-height: 80px;
@@ -285,7 +284,6 @@ header {
   margin-top: -12px;
   margin-bottom: 13px;
 }
-
 
 .forms small {
   color: #333;
@@ -311,7 +309,7 @@ header {
   align-items: center;
 }
 
-.forms input[type="submit"]{
+.forms input[type="submit"] {
   background: #e7a200;
   border-color: #e7a200;
   width: 155px;
@@ -319,5 +317,44 @@ header {
   border-radius: 50px;
   font-weight: 700;
   margin-top: 20px;
+}
+
+footer {
+  background: #e7a200;
+  min-height: 400px;
+  margin-top: -281px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+footer #dados {
+  display: flex;
+  margin: 0 14%;
+  justify-content: space-between;
+}
+
+
+#dados p,
+#dados h4 {
+  margin: 0;
+}
+
+
+#dados h4 {
+  margin-top: 10px;
+}
+
+
+footer #dados:first-child {
+  margin-left: 20%;
+}
+
+
+#copyright {
+  text-align: center;
+  margin-top: 100px;
 }
 
