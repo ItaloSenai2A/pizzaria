@@ -85,52 +85,52 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-    border-color: #e7a200;
+  border-color: #e7a200;
 }
 
 .site-header-main {
-    display: flex;
-    justify-content: space-between;
-    height: 125px;
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
 }
 
 .sec-menu {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
-  
+
 .sec-menu ion-icon {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-#btnZap{
-    background: #e7a200;
-    border-radius: 65px;
-    padding: 0px 15px;
-    font-size: 20px;
-    font-weight: bolder;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    gap: 7px;
+#btnZap {
+  background: #e7a200;
+  border-radius: 65px;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
-.Zap{
+.Zap {
   text-decoration: none;
   color: #fff;
 }
 
-.iFood{
+.iFood {
   position: fixed;
   right: 0;
   top: 200px;
-  box-shadow: -10px 10px 20px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: -10px 10px 20px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 10px 20px 0px rgba(0,0,0,0.75);
+  box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
-#BoasVindas{
+#BoasVindas {
   display: flex;
   background: #f6f6f6;
   margin: 0 auto;
@@ -142,20 +142,20 @@ header {
   padding: 0 100px;
 }
 
-#TextoBoasVindas{
+#TextoBoasVindas {
   max-width: 600px;
   padding-right: 100px;
 }
 
-#TextoBoasVindas h4{
+#TextoBoasVindas h4 {
   text-transform: uppercase;
   font-size: 16px;
   margin: 0;
   padding-top: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#TextoBoasVindas h3{
+#TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
   color: #e7a200;
@@ -168,7 +168,7 @@ header {
   margin-bottom: 0;
 }
 
-#Cardapio{
+#Cardapio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,7 +189,6 @@ header {
   justify-content: space-between;
 }*/
 
-
 #Cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
@@ -198,7 +197,7 @@ header {
   margin: 0 0 7px 0;
 }
 
-.btnCardapio{
+.btnCardapio {
   text-decoration: none;
   color: #fff;
   background: #8daa3e;
@@ -206,7 +205,6 @@ header {
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
 }
-
 
 #PromoPizzas {
   width: 100%;
@@ -217,4 +215,27 @@ header {
   gap: 10px;
   padding-top: 20px;
 }
+
+#Delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+
+#Delivery h1 {
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
+
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
+}
+
 
