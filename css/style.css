@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(http://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/pizza2.jpg) no-repeat center/cover;
   /*
     background-color: blue;
     background-image: url(http://placehold.co/1920x1080);
@@ -85,7 +85,7 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #b61e0ae6;
 }
 
 .site-header-main {
@@ -105,7 +105,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #b61e0ae6;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -126,9 +126,7 @@ header {
   right: 0;
   top: 200px;
   z-index: 10;
-  box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
 }
 
 #BoasVindas {
@@ -159,7 +157,7 @@ header {
 #TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #b61e0ae6;
   font-size: 23px;
   margin-bottom: 0;
   margin-top: 20px;
@@ -273,7 +271,7 @@ header {
 }
 
 .forms h2 {
-  color: #e7a200;
+  color: #b61e0ae6;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -310,8 +308,8 @@ header {
 }
 
 .forms input[type="submit"] {
-  background: #e7a200;
-  border-color: #e7a200;
+  background: #b61e0ae6;
+  border-color: #b61e0ae6;
   width: 155px;
   color: #fff;
   border-radius: 50px;
@@ -320,7 +318,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #b61e0ae6;
   min-height: 400px;
   margin-top: -281px;
   color: #fff;
